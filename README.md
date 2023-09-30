@@ -26,7 +26,7 @@ This particular implementation was chosen to be limited to 64-bit systems to red
 however the underlying principle could be adapted to architectures with larger or smaller pointer sizes.
 
 ## Build
-All build artifacts including executables are stored in `./build`
+All build artifacts including executables are stored in `./build`. To build a library, you will need to create your own build script - the following only run the tests on `short_string.c`.
 
 #### Linux
 On linux systems or Windows subsystem for linux, gnu-make can be used to build the files and run the tests.
